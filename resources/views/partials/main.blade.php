@@ -1,7 +1,7 @@
 <main>
     @if(!empty($lunghe)) {{-- Controllo array generati in base ai dati in entrata --}}
+        <h2>Le lunghe</h2>
         <div class="cards">
-            <h2>Le lunghe</h2>
             @foreach ($lunghe as $key => $card) {{-- Ciclo per creare la prima serie di card in base alla tipologia della pasta --}}
                 <div class="card">
                     <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
@@ -20,8 +20,8 @@
     @endif
 
     @if (!empty($corte))
+        <h2>Le corte</h2>
         <div class="cards">
-            <h2>Le corte</h2>
             @foreach ($corte as $key => $card)
                 <div class="card">
                     <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
@@ -40,8 +40,8 @@
     @endif
 
     @if (!empty($cortissime))
+        <h2>Le cortissime</h2>
         <div class="cards">
-            <h2>Le cortissime</h2>
             @foreach ($cortissime as $key => $card)
                 <div class="card">
                     <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
