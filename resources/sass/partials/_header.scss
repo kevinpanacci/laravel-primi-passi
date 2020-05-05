@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        padding-bottom: 32px;
+    }
+    .main-menu {
+        display: flex;
+        li {
+            list-style: none;
+            margin-right: 15px;
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+}
