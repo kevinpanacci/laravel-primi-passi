@@ -4,11 +4,11 @@
 @endsection
 
 @section('titolo')
-    La Molisana
+    Contatti
 @endsection
 
 @section('mainContent')
-    
+
 @endsection
 
 @section('scripts')

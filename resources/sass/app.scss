@@ -1,7 +1,13 @@
-@import "partials/_reset";
 @import "partials/_variables";
+// RESET
+@import "partials/_reset";
+// TAG GENERICI
 @import "partials/_common";
-@import "partials/_footer";
+// HEADER
 @import "partials/_header";
+// MAIN
 @import "partials/_main";
+// FOOTER
+@import "partials/_footer";
+// MEDIA
 @import "partials/_mediaq";

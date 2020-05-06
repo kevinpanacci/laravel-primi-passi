@@ -20,3 +20,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {
     return view('home');
 })->name('home');
+
+Route::get('/prodotti', function() {
+    return view('products');
+})->name('prodotti');
+
+Route::get('/contatti', function() {
+    return view('contacts');
+})->name('contatti');
+
+// ADMIN
+Route::get('admin/products', function() {
+    return view('admin.products');
+})->name('admin.prodotti');
