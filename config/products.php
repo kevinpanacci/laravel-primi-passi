@@ -241,4 +241,6 @@
 
       }
     ]';
-?>
+
+    $cards = json_decode($data, true);
+    return $cards;
