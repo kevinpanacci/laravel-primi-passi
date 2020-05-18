@@ -33,3 +33,7 @@ Route::get('/contatti', function() {
 Route::get('admin/products', function() {
     return view('admin.products');
 })->name('admin.prodotti');
+
+Route::get('/prodotti/{id}', function($id) {
+    return view('prodotto', compact('id'));
+})->name('prodotti.show');

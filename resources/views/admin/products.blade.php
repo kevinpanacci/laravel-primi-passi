@@ -1,6 +1,6 @@
 @php
-    $data = config('products');
-    $database = json_decode($data, true); // Metodo per decodificare il json
+    $database = config('products');
+    // $database = json_decode($data, true); // Metodo per decodificare il json
 @endphp
 
 @extends('layouts.admin')

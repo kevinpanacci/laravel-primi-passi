@@ -4,7 +4,9 @@
         <div class="cards">
             @foreach ($lunghe as $key => $card) {{-- Ciclo per creare la prima serie di card in base alla tipologia della pasta --}}
                 <div class="card">
-                    <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    <a href="{{route('prodotti.show', $key)}}">
+                        <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    </a>
                     <div class="card-link">
                         <h3><a href="{{$key}}">{{$card['titolo']}}</a></h3>
                         <a href="#">
@@ -24,7 +26,9 @@
         <div class="cards">
             @foreach ($corte as $key => $card)
                 <div class="card">
-                    <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    <a href="{{route('prodotti.show', $key)}}">
+                        <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    </a>
                     <div class="card-link">
                         <h3><a href="{{$key}}">{{$card['titolo']}}</a></h3>
                         <a href="#">
@@ -44,7 +48,9 @@
         <div class="cards">
             @foreach ($cortissime as $key => $card)
                 <div class="card">
-                    <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    <a href="{{route('prodotti.show', $key)}}">
+                        <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
+                    </a>
                     <div class="card-link">
                         <h3><a href="{{$key}}">{{$card['titolo']}}</a></h3>
                         <a href="#">

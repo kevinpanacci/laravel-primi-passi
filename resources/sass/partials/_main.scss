@@ -31,9 +31,57 @@ main {
                 display: none;
                 text-align: center;
                 h3 {
-                    padding-bottom: 10px;
+                    padding-bottom: 150px;
+                    margin-top: 50px;
                 }
             }
         }
+    }
+}
+
+main {
+    .prodotto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-cta {
+        margin-top: 100px;
+        width: 1400px;
+        p, h3 {
+            color: #467c9a;
+        }
+        .prod-top {
+            margin-bottom: -4px;
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            h3 {
+                position: absolute;
+            }
+        }
+        .prod-bot {
+            width: 100%;
+            height: 640px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .sky {
+            width: 100%;
+            text-align: center;
+            background-color: #b7d9e3;
+            p {
+                padding-bottom: 30px;
+            }
+        }
+    }
+    #next {
+        margin-left: 30px;
+        // float: right;
+    }
+    #prev {
+        margin-right: 30px;
     }
 }

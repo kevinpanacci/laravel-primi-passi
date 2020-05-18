@@ -1,7 +1,7 @@
 
 @php
-    $data = config('products');
-    $cards = json_decode($data, true); // Metodo per decodificare il json
+    $cards = config('products');
+    // $cards = json_decode($data, true); // Metodo per decodificare il json
 
     //Inizializzo array vuoti per dividere la tipologia
     $lunghe = [];
